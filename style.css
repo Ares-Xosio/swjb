@@ -213,6 +213,7 @@ li{
     width: 100%;
     height: 300px;
     margin-top: 50px;
+    padding-bottom: 50px;
 
     display: flex;
     justify-content: space-around;
@@ -220,19 +221,18 @@ li{
 }
 
 .skills .contents li{
-    width: 350px;
-    height: 350px;
+    width: 320px;
+    height: 320px;
     background-color: white;
 
-    padding: 10px;
+    padding: 30px;
 
     transition: 0.3s;
 }
 
 .skills h3{
-    margin-top: 30px;
     text-align: center;
-    font-size:  25px;
+    font-size:  22.5px;
 
 }
 
@@ -266,9 +266,17 @@ li{
     background-attachment: fixed;
 }
 
-.projects{
+.Activity{
     height: 1200px;   
 }
+
+
+/* .skills-con{
+    display: flex;
+    align-items: flex-end;
+} */
+
+
 
 .contact{
     width: 1200px;
@@ -318,7 +326,7 @@ li{
 }
 
 .contact .right p{
-    font-size: 25px;
+    font-size: 15px;
 }
 
 .contact .right input{
